@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="all">
+    <meta name="googlebot" content="all">
+    <meta name="description" content="UX and HCI researcher with interests in mobile health, AI, and clinical decision support. PhD candidate at Georgia Tech. In the job market.">
+    <meta name="author" content="Matthew K. Hong">
+    <meta name="keywords" content="Matthew Hong, Georgia Tech, PhD, User Experience, UX, UX Research, Human-Centered, AI, Human-Centered AI, User-Centered Design, Human Factors, Health, Health Informatics, Mobile Health, mHealth, Human-Computer Interaction, HCI">
+
+    <title>Visualizing Disparities &#8211; Matthew K. Hong</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/freelancer.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    <!-- Fancybox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://www.cc.gatech.edu/~mhong39/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://www.cc.gatech.edu/~mhong39/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <a href="../index.html"><h3>Matthew K. Hong</h3></a>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>PhD Candidate @ Georgia Tech</p>
+                <li>
+                    <a href="../index.html">About</a>
+                </li>
+                <li>
+                    <a href="../news.html">News</a>
+                </li>
+                <li class="active">
+                    <a href="#projectsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Projects</a>
+                    <ul class="collapse list-unstyled" id="projectsSubmenu">
+                        <li>
+                            <a href="coop.html">CO-OP</a>
+                        </li>
+                        <li>
+                            <a href="rapport.html">Rapport</a>
+                        </li>
+                        <li>
+                            <a href="pghd.html">Integrating PGHD</a>
+                        </li>
+                        <li>
+                            <a href="carepartner.html">Care Partners</a>
+                        </li>
+                        <li>
+                            <a href="nlpschema.html">Schema Builder</a>
+                        </li>
+                        <li>
+                            <a href="workspace.html">Interactive Workspaces</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">Visualizing Disparities</a>
+                        </li>
+                        <li>
+                            <a href="capstone.html">Boeing Capstone</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../publication.html">Publication</a>
+                </li>
+                <li>
+                    <a href="../vitae.html">Vitae</a>
+                </li>
+                <li>
+                    <a href="../contact.html">Contact</a>
+                </li>
+            </ul>
+            <ul class="list-unstyled CTAs">
+                <li><a href="../files/matt_cv.pdf" target="_blank">CV</a></li>
+                <li><a href="http://scholar.google.com/citations?user=QmwGV_sAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+                <li><a href="https://medium.com/@mkhong87" target="_blank">Medium</a></li>
+                <li><a href="https://www.linkedin.com/in/mkhong87/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>                    
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="workspace.html"><i class="fas fa-arrow-left"></i> Previous</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="capstone.html">Next <i class="fas fa-arrow-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> 
+        
+        <div class="container" id="portfolio">
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <h3 class="text-left">Visualizing Health Disparities in the United States</h3>
+                </div>
+            </div>
+                <br/>
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <p style="text-align:left;">While billions of tax dollars are spent on healthcare in the US, many Americans still experience unequal access to healthcare. With our visualization, public health researchers and policy makers can make better informed decisions based on an understanding of health outcomes in the context of diverse behavioral, social and environmental determinants of health in any region.</p><br>
+
+                            <ul class="list-inline item-details" style="text-align:left;">
+                                <li><strong>Project Date:&nbsp;</strong>Oct 2016 - Dec 2016
+                                </li>
+                                <li><strong>Affiliations:&nbsp;</strong>
+                                    Georgia Institute of Technology
+                                </li>
+                                <li><strong>Funding:&nbsp;</strong>NA
+                                </li>
+                                <li><strong>Collaborators:&nbsp;</strong>
+                                    Po Ming Law, Wing Lam Chong, and Yichen Shen
+                                </li>
+                            </ul>
+                            <br><br><br>
+                            <h5 style="text-align:left;">Background</h5>
+                            <p style="text-align:left;">Today, chronic illnesses ranging from diabetes, HIV, and mental health affect a significant portion of the US population. Although clinical studies have shown statistically relevant associations between a few health risk factors and these illnesses, such as eating behavior and type II diabetes, very little is known about how various social determinants of health (e.g., environmental, socio-economic, etc.) are contributing to the overall quality of health in throughout different regions.</p><br><br>
+
+                            <h5 style="text-align:left;">Goal</h5>
+                            <p style="text-align:left;">The goal of this project is to design a visualization tool that would help public health researchers and policy makers make important decisions that would affect the overall health and wellbeing of the people in US.</p>
+                            <br><br>
+                            <h5 style="text-align:left;">Methods</h5>
+                            <ul style="text-align:left;">
+                                <li>Iterative, user-centered design</li>
+                            </ul><br>
+                            <p style="text-align:left;">We used <a href="http://www.countyhealthrankings.org/rankings/data" target="_blank">County Health Rankings National Data</a> from 2010 to 2016. We only included data from 2013-2016 in the visualization due to missing variables and values from 2010-2012. Each state has a number of counties and each county has a hierarchy of attributes.</p><br>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                                    <a href="img/portfolio/vizhealth/variables.png" data-fancybox="gallery" data-caption="24 Health Variables Extracted From US County Health Ranking Data"><img src="img/portfolio/vizhealth/variables.png" width="100%" alt=""/></a>
+                                    <br><br>
+                                    <p style="text-align:left;">There are 24 health variables, consisting of 5 health outcomes and 19 health factors. We computed the ranking of each state from county rankings data per health variable.</p>
+                                </div>
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                                    <a href="img/portfolio/vizhealth/iterative.png" data-fancybox="gallery" data-caption="Iterative Design of Visualizations"><img src="img/portfolio/vizhealth/iterative.png" width="100%" alt=""/></a>
+                                    <br><br>
+                                    <p style="text-align:left;">We iteratively generated and evaluated several candidate designs through poster presentations and workshops. Feedback from other graduate students helped solidify our final design choice.</p>
+                                </div>
+                            </div>
+                            <br><br>
+
+                            <h5 style="text-align:left;">Prototype Design</h5><br>
+
+                            <div class="row">
+                                <div class="vidContainer col-lg-9 col-md-10 col-sm-10 col-xs-10">
+                                    <iframe class="vid" width="100%" height="100%" src="https://www.youtube.com/embed/3L5jUs4P-YE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-lg-3 col-md-10 col-sm-10 col-xs-10">
+                                    <a href="http://ushealthranking.github.io/" target="_blank"><img src="img/portfolio/vizhealth/link.png" class="img-responsive img-centered" alt="" width="70%"></a><br>
+                                    <p style="text-align:left;">The resulting visualization focuses on showing the quality of health via relative ranking (out of 51 states) as a measure. Click the image for an interactive demo.</p>
+                                </div>
+                            </div>
+                            <br><br>
+
+                            <p style="text-align:left;">Having a thorough understanding of regional health profiles could, for example, inform important public policies that would ultimately serve underserved communities where there is limited access to healthcare providers, healthy nutrition, and other resources that are essential for people's wellbeing and quality of life. Identifying the health profile of these communities bounded by geographical regions could be an important first step towards reducing health disparities by informing policy level decisions to better allocate mentioned resources. Our visualization would thus support such goal by supporting comparative analysis of different regions by their health factors and outcomes.</p><br><br>
+                </div>
+            </div>
+            <br><br>
+            <!-- Footer -->
+            <div class="footer">Copyright &copy; Matthew Hong <script>document.write(new Date().getFullYear());</script></div>
+        </div>
+        </div>
+    </div>
+    
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- Panels -->
+    <script src="../js/panels.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-55410223-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });       
+        });
+    </script>
+</body>
+
+</html>

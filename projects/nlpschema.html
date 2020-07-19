@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="all">
+    <meta name="googlebot" content="all">
+    <meta name="description" content="UX and HCI researcher with interests in mobile health, AI, and clinical decision support. PhD candidate at Georgia Tech. In the job market.">
+    <meta name="author" content="Matthew K. Hong">
+    <meta name="keywords" content="Matthew Hong, Georgia Tech, PhD, User Experience, UX, UX Research, Human-Centered, AI, Human-Centered AI, User-Centered Design, Human Factors, Health, Health Informatics, Mobile Health, mHealth, Human-Computer Interaction, HCI">
+
+    <title>Schema Builder &#8211; Matthew K. Hong</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/freelancer.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    <!-- Fancybox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://www.cc.gatech.edu/~mhong39/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://www.cc.gatech.edu/~mhong39/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <a href="../index.html"><h3>Matthew K. Hong</h3></a>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>PhD Candidate @ Georgia Tech</p>
+                <li>
+                    <a href="../index.html">About</a>
+                </li>
+                <li>
+                    <a href="../news.html">News</a>
+                </li>
+                <li class="active">
+                    <a href="#projectsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Projects</a>
+                    <ul class="collapse list-unstyled" id="projectsSubmenu">
+                        <li>
+                            <a href="coop.html">CO-OP</a>
+                        </li>
+                        <li>
+                            <a href="rapport.html">Rapport</a>
+                        </li>
+                        <li>
+                            <a href="pghd.html">Integrating PGHD</a>
+                        </li>
+                        <li>
+                            <a href="carepartner.html">Care Partners</a>
+                        </li>
+                        <li class="active">
+                            <a href="#">Schema Builder</a>
+                        </li>
+                        <li>
+                            <a href="workspace.html">Interactive Workspaces</a>
+                        </li>
+                        <li>
+                            <a href="vizhealth.html">Visualizing Disparities</a>
+                        </li>
+                        <li>
+                            <a href="capstone.html">Boeing Capstone</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../publication.html">Publication</a>
+                </li>
+                <li>
+                    <a href="../vitae.html">Vitae</a>
+                </li>
+                <li>
+                    <a href="../contact.html">Contact</a>
+                </li>
+            </ul>
+            <ul class="list-unstyled CTAs">
+                <li><a href="../files/matt_cv.pdf" target="_blank">CV</a></li>
+                <li><a href="http://scholar.google.com/citations?user=QmwGV_sAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+                <li><a href="https://medium.com/@mkhong87" target="_blank">Medium</a></li>
+                <li><a href="https://www.linkedin.com/in/mkhong87/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>                    
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="carepartner.html"><i class="fas fa-arrow-left"></i> Previous</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="workspace.html">Next <i class="fas fa-arrow-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> 
+        
+        <div class="container" id="portfolio">
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <h3 class="text-left">Schema Builder: Web-based UI for Authoring and Sharing Natural-Language Processing Schemas</h3>
+                </div>
+            </div>
+                <br/>
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <p style="text-align:left;">I had the opportunity to work with Schema Builder while working as a research assistant under Dr. Wendy Chapman's supervision through UCSD's <a href="https://medschool.ucsd.edu/som/dbmi/education/Internships/Pages/2012-Summer-Internship.aspx" target="blank">DBMI internship program</a>. My role in this project was to conduct usability studies, and design and evaluate a prototype user interface for Schema Builder. Specifically, I systematically investigated the workflow patterns in the clinicians’ line of work.</p><br>
+
+                            <ul class="list-inline item-details" style="text-align:left;">
+                                <li><strong>Project Date:&nbsp;</strong>Jun 2012 - Sep 2012
+                                </li>
+                                <li><strong>Affiliations:&nbsp;</strong>
+                                    Department of Biomedical Informatics @ UC San Diego
+                                </li>
+                                <li><strong>Funding:&nbsp;</strong>NIH 1R01LM010964, VAHSR&amp;D HIR 08-204
+                                </li>
+                                <li><strong>Collaborators:&nbsp;</strong>
+                                    Yang Liu, Melissa Tharp, Harry Hochheiser, and Wendy W. Chapman.
+                                </li>
+                            </ul>
+                            <br><br><br>
+                            <h5 style="text-align:left;">Background</h5>
+                            <p style="text-align:left;">
+                                Clinical research, quality assessment, and decision support often require targeted extraction of information from clinical narratives. While Natural Language Processing (NLP) systems can provide clinical professionals the means to query rich annotations of clinical text, they often lack extensive NLP expertise to create the queries. Schema Builder aims to address the gap between the NLP system output and the targeted information needs of domain experts by providing a user interface to assist them in building rich concept-oriented, unambiguous schemas that can be used to map to NLP annotations.</p><br><br>
+
+                            <h5 style="text-align:left;">Goal</h5>
+                            <p style="text-align:left;">The goal of this research is to investigate the targeted information needs of clinical professionals related to reviewing clinical text reports.</p>
+                            <br><br>
+                            <h5 style="text-align:left;">Methods</h5>
+                            <ul style="text-align:left;">
+                                <li>Cognitive walkthrough</li>
+                                <li>Semi-structured interviews</li>
+                            </ul><br>
+                            <p style="text-align:left;">I was mainly interested in clinicians' mental model of how they process medical knowledge. Cognitive walkthroughs helped me structure concept elicitation tasks and build rapport with clinicians. Later, I defined use case scenarios for pathology reports of colonoscopy exams and adverse drug events.</p><br>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                                    <a href="img/portfolio/nlpschema/walkthrough.png" data-fancybox="gallery" data-caption="Cognitive Walkthrough"><img src="img/portfolio/nlpschema/walkthrough.png" width="100%" alt=""/></a>
+                                    <br><br>
+                                    <p style="text-align:left;">I conducted 3 online sessions of 30 minute task-oriented interviews studies with clinicians over an interactive drawing interface to understand their mental model.</p>
+                                </div>
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                                    <a href="img/portfolio/nlpschema/finding2.png" data-fancybox="gallery" data-caption="Cognitive Walkthrough 2"><img src="img/portfolio/nlpschema/finding2.png" width="100%" alt=""/></a>
+                                    <br><br>
+                                    <p style="text-align:left;">To align their mental model with our understanding of the NLP model, I asked clinician participants to map each category of medical concepts (blue) to the qualitative modifiers or attributes (white) that can be assigned to each concept.</p>
+                                </div>
+                            </div>
+                            <br><br>
+
+                            <h5 style="text-align:left;">Key Findings</h5>
+                            <br><br>
+                            <a href="img/portfolio/nlpschema/finding.png" data-fancybox data-caption="Key Finding: Background, Problems, and Actions"><img src="img/portfolio/nlpschema/finding.png" width="100%" alt=""/></a>
+                            <br><br>
+                            <p style="text-align:left;">Clinical professionals tend to organize medical concepts under three broad categories: background, problems and actions. For the colonoscopy exam use case, the user was interested in seeing a list of things to be marked off if they were done. On the other hand, in the adverse drug events use case, the user was interested in seeing the temporal order of events in relation to the administration of a drug while the patient is hospitalized. </p>
+                            <br><br>
+
+                            <h5 style="text-align:left;">Prototype Design</h5><br>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                                    <a href="img/portfolio/nlpschema/nlpschema_2013.png" data-fancybox data-caption="NLP Pipeline"><img src="img/portfolio/nlpschema/nlpschema_2013.png" width="100%" alt=""/></a>
+                                </div>
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                                    <p style="text-align:left;">Schema Builder is a web-based user interface that allows clinicians to define custom natural language processing (NLP) schemas in order to extract important information from unstructured free-text patient records. Schema Builder allows the user to create rich concept-oriented, unambiguous schemas that consist of definitions, linguistic and semantic attributes, synonyms, and mappings to standardized vocabularies. The application assists the user by leveraging a detailed generic NLP schema and providing candidate lists for synonyms, definitions, and concepts from standardized vocabularies. Schemas can be shared among users.</p>
+                                </div>
+                            </div>
+                            <br><br>
+
+                            <p style="text-align:left;"><b>Colonoscopy Use Case</b>: I focused on redesigning a pre-existing UI for Schema Builder, which is based on the colonoscopy use case. I noticed that the UI was cluttered and did not follow a logical flow. </p>
+
+                            <div class="row">
+                                <div class="col-lg-8 col-md-10 col-sm-10 col-xs-10">
+                                    <a href="img/portfolio/nlpschema/old.png" data-fancybox="gallery" data-caption="Existing Schema Builder UI"><img src="img/portfolio/nlpschema/old.png" width="90%" alt=""/></a>
+                                    <br>
+                                    <p style="text-align:center;">Existing Schema Builder UI</p>
+                                </div>
+                                <div class="col-lg-4 col-md-10 col-sm-10 col-xs-10">
+                                    <a href="img/portfolio/nlpschema/colonoscopy.png" data-fancybox="gallery" data-caption="Pathology Report Form UI"><img src="img/portfolio/nlpschema/colonoscopy.png" width="100%" alt=""/></a>
+                                    <br>
+                                    <p style="text-align:center;">Pathology report form UI</p>
+                                </div>
+                            </div>
+                            <br><br>
+
+                            <p style="text-align:left;"><b>Embedding Knowledge Representation through Phrase Builder</b>: my interviews with a colonoscopist helped me generate the insights needed to design an interface that builds upon their mental model. It starts with selecting a person of interest, their relationship to a particular concept (such as a diagnosis) and selecting attributes that are related to the concept. I designed the Phrase builder feature, which helps colonoscopists construct a one line summary of the schema. A candidate list of attributes are embedded within each word when generating the phrase.</p>
+                            <br>
+                            <div class="container">
+                                <div id="carousel-example-generic" class="carousel slide mb-5" data-ride="carousel" data-interval="5000">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+                                    </ol>
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <img src="img/portfolio/nlpschema/sb/sb1.png" class="img-responsive" alt="" width="100%">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/portfolio/nlpschema/sb/sb2.png" class="img-responsive" alt="" width="100%">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/portfolio/nlpschema/sb/sb3.png" class="img-responsive" alt="" width="100%">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/portfolio/nlpschema/sb/sb4.png" class="img-responsive" alt="" width="100%">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/portfolio/nlpschema/sb/sb5.png" class="img-responsive" alt="" width="100%">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/portfolio/nlpschema/sb/sb6.png" class="img-responsive" alt="" width="100%">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/portfolio/nlpschema/sb/sb7.png" class="img-responsive" alt="" width="100%">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/portfolio/nlpschema/sb/sb8.png" class="img-responsive" alt="" width="100%">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/portfolio/nlpschema/sb/sb9.png" class="img-responsive" alt="" width="100%">
+                                        </div>
+                                    </div>
+                                <!-- Controls -->
+                                    <a class="carousel-control-prev" href="#carousel-example-generic" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel-example-generic" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                </div>
+                            <br>
+                            <p style="text-align:left;">In a preliminary evaluation of this work, physicians and clinical researchers from the UCSD and Harvard Medical Center expressed their enthusiasm and wished to use Schema Builder in their practice as soon as possible.</p><br><br>
+
+                            <h5 style="text-align:left;">Publications</h5>
+                            <table class="table" style="text-align:left;">
+                            <tbody>
+                            <tr>
+                            <td><a href="../files/p_amia2013.pdf" target="_blank"><img src="img/pdficon.jpg" height="25"></a></td>
+                            <td><strong>Schema Builder: A Web-based User Interface for Authoring and Sharing Natural-Language Processing Schemas.</strong><br>
+                            Yang Liu, Melissa Tharp, <u>Matthew K. Hong</u>, Harry Hochheiser and Wendy W. Chapman. Proceedings of the AMIA 2013 Annual Symposium (AMIA 2013), Washington, DC, USA, 2013.</td>
+                            </tr>
+                            </tbody>
+                            </table><br>
+                </div>
+            </div>
+            <br><br>
+            <!-- Footer -->
+            <div class="footer">Copyright &copy; Matthew Hong <script>document.write(new Date().getFullYear());</script></div>
+        </div>
+        </div>
+    </div>
+    
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- Panels -->
+    <script src="../js/panels.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-55410223-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="all">
+    <meta name="googlebot" content="all">
+    <meta name="description" content="UX and HCI researcher with interests in mobile health, AI, and clinical decision support. PhD candidate at Georgia Tech. In the job market.">
+    <meta name="author" content="Matthew K. Hong">
+    <meta name="keywords" content="Matthew Hong, Georgia Tech, PhD, User Experience, UX, UX Research, Human-Centered, AI, Human-Centered AI, User-Centered Design, Human Factors, Health, Health Informatics, Mobile Health, mHealth, Human-Computer Interaction, HCI">
+
+    <title>Contact &#8211; Matthew K. Hong</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/freelancer.min.css">
+
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://www.cc.gatech.edu/~mhong39/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://www.cc.gatech.edu/~mhong39/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <a href="index.html"><h3>Matthew K. Hong</h3></a>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>PhD Candidate @ Georgia Tech</p>
+                <li>
+                    <a href="index.html">About</a>
+                </li>
+                <li>
+                    <a href="news.html">News</a>
+                </li>
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="publication.html">Publication</a>
+                </li>
+                <li>
+                    <a href="vitae.html">Vitae</a>
+                </li>
+                <li class="active">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <ul class="list-unstyled CTAs">
+                <li><a href="files/matt_cv.pdf" target="_blank">CV</a></li>
+                <li><a href="http://scholar.google.com/citations?user=QmwGV_sAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+                <li><a href="https://medium.com/@mkhong87" target="_blank">Medium</a></li>
+                <li><a href="https://www.linkedin.com/in/mkhong87/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <!--<button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Page</a>
+                            </li>
+                        </ul>
+                    </div> -->
+                </div>
+            </nav> 
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 text-left">
+                  <h2>Contact Me</h2>
+                  <br><br>
+                  <p>Thanks for showing your interest in my work!</p> 
+                  <p>If you have any questions about my research or would like to know how we can work together, please let me know by filling out this form and I'll get back to you very soon (*I am also in the job market).</p>
+                  <br><br>
+                </div>
+              </div>
+              <div class="box">
+                <form id="contact-form" method="post" action="php/contact.php" role="form">
+                  <div class="messages"></div>
+                    <div class="controls">
+                      <div class="row">
+                        <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10">
+                          <div class="form-group">
+                                <label for="form_name">Firstname *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname" required="required" data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10">
+                            <div class="form-group">
+                                <label for="form_lastname">Lastname *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname" required="required" data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10">
+                              <div class="form-group">
+                                  <label for="form_email">Email *</label>
+                                  <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="Valid email is required.">
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                          <div class="col-lg-5 col-md-5 col-sm-10 col-xs-10">
+                              <div class="form-group">
+                                  <label for="form_phone">Phone</label>
+                                  <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number">
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                              <div class="form-group">
+                                  <label for="form_message">Message *</label>
+                                  <textarea id="form_message" name="message" class="form-control" placeholder="Message for me" rows="4" required="required" data-error="Please, leave me a message."></textarea>
+                                  <div class="help-block with-errors"></div>
+                              </div>
+                          </div>
+                          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                            <div class="form-group">
+                              <!--<input type="submit" class="btn btn-success btn-send btn-primary" value="Send message">-->
+                              <button type="submit" class="submit btn btn-primary btn-shadow btn-gradient">Send Message</button>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                              <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                          </div>
+                      </div>
+                  </div>
+                </form>
+              </div>
+              <br><br>
+            </div>
+        <!-- Footer -->
+            <div class="footer">Copyright &copy; Matthew Hong <script>document.write(new Date().getFullYear());</script></div>
+      </div>
+    </div>
+    
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- Panels -->
+    <script src="js/panels.js"></script>
+
+    <!-- Contact form validator and feedback -->
+    <script src="js/validator.js"></script>
+    <script src="js/contact.js"></script>
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-55410223-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
