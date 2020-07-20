@@ -8,58 +8,103 @@
 
 
 <url>
-  <loc>https://www.cc.gatech.edu/~mhong39/</loc>
-  <lastmod>2019-09-30T05:14:19+00:00</lastmod>
+  <loc>http://www.matthewkhong.com/</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.cc.gatech.edu/~mhong39/news.html</loc>
-  <lastmod>2019-09-30T05:14:19+00:00</lastmod>
+  <loc>http://www.matthewkhong.com/news.html</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.cc.gatech.edu/~mhong39/projects.html</loc>
-  <lastmod>2019-09-30T05:14:19+00:00</lastmod>
+  <loc>http://www.matthewkhong.com/projects.html</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.cc.gatech.edu/~mhong39/publication.html</loc>
-  <lastmod>2019-09-30T05:14:19+00:00</lastmod>
+  <loc>http://www.matthewkhong.com/publication.html</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.cc.gatech.edu/~mhong39/contact.html</loc>
-  <lastmod>2019-09-30T05:14:19+00:00</lastmod>
+  <loc>http://www.matthewkhong.com/vitae.html</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.cc.gatech.edu/~mhong39/files/matt_cv.pdf</loc>
-  <lastmod>2019-09-27T21:10:43+00:00</lastmod>
+  <loc>http://www.matthewkhong.com/files/matt_cv.pdf</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.cc.gatech.edu/~mhong39/index.html</loc>
-  <lastmod>2019-09-30T05:14:19+00:00</lastmod>
+  <loc>http://www.matthewkhong.com/index.html</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.cc.gatech.edu/~mhong39/files/c_amia2018.pdf</loc>
-  <lastmod>2019-09-27T21:10:44+00:00</lastmod>
+  <loc>http://www.matthewkhong.com/projects/coop.html</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.cc.gatech.edu/~mhong39/files/p_chi2019.pdf</loc>
-  <lastmod>2019-09-27T21:10:43+00:00</lastmod>
+  <loc>http://www.matthewkhong.com/projects/rapport.html</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.cc.gatech.edu/~mhong39/files/p_amia2017.pdf</loc>
-  <lastmod>2019-09-27T21:10:41+00:00</lastmod>
+  <loc>http://www.matthewkhong.com/projects/pghd.html</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.cc.gatech.edu/~mhong39/files/p_amia2013.pdf</loc>
-  <lastmod>2019-09-27T21:10:41+00:00</lastmod>
+  <loc>http://www.matthewkhong.com/projects/carepartner.html</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.matthewkhong.com/projects/nlpschema.html</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.matthewkhong.com/projects/workspace.html</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.matthewkhong.com/projects/vizhealth.html</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.matthewkhong.com/projects/capstone.html</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.matthewkhong.com/files/c_chi2020.pdf</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.matthewkhong.com/files/p_amia2019.pdf</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.matthewkhong.com/files/p_amia2018.pdf</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.matthewkhong.com/files/p_amia2017.pdf</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://www.matthewkhong.com/files/p_amia2013.pdf</loc>
+  <lastmod>2020-07-20T10:49:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 

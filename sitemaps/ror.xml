@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for https://www.cc.gatech.edu/~mhong39/</title>
-  <link>https://www.cc.gatech.edu/~mhong39/</link>
+  <title>ROR Sitemap for http://matthewkhong.com/</title>
+  <link>http://matthewkhong.com/</link>
 
 <item>
-     <link>https://www.cc.gatech.edu/~mhong39/</link>
+     <link>http://www.matthewkhong.com/</link>
      <title>Matthew K. Hong | UX and HCI Researcher</title>
-     <description>UX and HCI researcher with interests in mobile health, AI, decision support, and medical imaging. PhD candidate at Georgia Tech.</description>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://www.cc.gatech.edu/~mhong39/news.html</link>
-     <title>Matthew K. Hong | News</title>
-     <description>UX and HCI researcher with interests in mobile health, AI, decision support, and medical imaging. PhD candidate at Georgia Tech.</description>
+     <link>http://www.matthewkhong.com/news.html</link>
+     <title>News &amp;#8211; Matthew K. Hong</title>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://www.cc.gatech.edu/~mhong39/projects.html</link>
-     <title>Matthew K. Hong | Projects</title>
-     <description>UX and HCI researcher with interests in mobile health, AI, decision support, and medical imaging. PhD candidate at Georgia Tech.</description>
+     <link>http://www.matthewkhong.com/projects.html</link>
+     <title>Projects &amp;#8211; Matthew K. Hong</title>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://www.cc.gatech.edu/~mhong39/publication.html</link>
-     <title>Matthew K. Hong | Publication</title>
-     <description>UX and HCI researcher with interests in mobile health, AI, decision support, and medical imaging. PhD candidate at Georgia Tech.</description>
+     <link>http://www.matthewkhong.com/publication.html</link>
+     <title>Publication &amp;#8211; Matthew K. Hong</title>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://www.cc.gatech.edu/~mhong39/contact.html</link>
-     <title>Matthew K. Hong | Contact</title>
-     <description>UX and HCI researcher with interests in mobile health, AI, decision support, and medical imaging. PhD candidate at Georgia Tech.</description>
+     <link>http://www.matthewkhong.com/vitae.html</link>
+     <title>Vitae &amp;#8211; Matthew K. Hong</title>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>1</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://www.cc.gatech.edu/~mhong39/files/matt_cv.pdf</link>
+     <link>http://www.matthewkhong.com/files/matt_cv.pdf</link>
      <title></title>
      
      <ror:updatePeriod></ror:updatePeriod>
@@ -53,15 +53,79 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://www.cc.gatech.edu/~mhong39/index.html</link>
+     <link>http://www.matthewkhong.com/index.html</link>
      <title>Matthew K. Hong | UX and HCI Researcher</title>
-     <description>UX and HCI researcher with interests in mobile health, AI, decision support, and medical imaging. PhD candidate at Georgia Tech.</description>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
      <ror:updatePeriod></ror:updatePeriod>
      <ror:sortOrder>2</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://www.cc.gatech.edu/~mhong39/files/c_amia2018.pdf</link>
+     <link>http://www.matthewkhong.com/projects/coop.html</link>
+     <title>CO-OP &amp;#8211; Matthew K. Hong</title>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.matthewkhong.com/projects/rapport.html</link>
+     <title>Rapport &amp;#8211; Matthew K. Hong</title>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.matthewkhong.com/projects/pghd.html</link>
+     <title>Integrating PGHD &amp;#8211; Matthew K. Hong</title>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.matthewkhong.com/projects/carepartner.html</link>
+     <title>Care Partners &amp;#8211; Matthew K. Hong</title>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.matthewkhong.com/projects/nlpschema.html</link>
+     <title>Schema Builder &amp;#8211; Matthew K. Hong</title>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.matthewkhong.com/projects/workspace.html</link>
+     <title>Interactive Workspaces &amp;#8211; Matthew K. Hong</title>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.matthewkhong.com/projects/vizhealth.html</link>
+     <title>Visualizing Disparities &amp;#8211; Matthew K. Hong</title>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.matthewkhong.com/projects/capstone.html</link>
+     <title>Boeing Capstone &amp;#8211; Matthew K. Hong</title>
+     <description>UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.matthewkhong.com/files/c_chi2020.pdf</link>
      <title></title>
      
      <ror:updatePeriod></ror:updatePeriod>
@@ -69,7 +133,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://www.cc.gatech.edu/~mhong39/files/p_chi2019.pdf</link>
+     <link>http://www.matthewkhong.com/files/p_amia2019.pdf</link>
      <title></title>
      
      <ror:updatePeriod></ror:updatePeriod>
@@ -77,7 +141,7 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://www.cc.gatech.edu/~mhong39/files/p_amia2017.pdf</link>
+     <link>http://www.matthewkhong.com/files/p_amia2018.pdf</link>
      <title></title>
      
      <ror:updatePeriod></ror:updatePeriod>
@@ -85,7 +149,15 @@
      <ror:resourceOf>sitemap</ror:resourceOf>
 </item>
 <item>
-     <link>https://www.cc.gatech.edu/~mhong39/files/p_amia2013.pdf</link>
+     <link>http://www.matthewkhong.com/files/p_amia2017.pdf</link>
+     <title></title>
+     
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>http://www.matthewkhong.com/files/p_amia2013.pdf</link>
      <title></title>
      
      <ror:updatePeriod></ror:updatePeriod>
