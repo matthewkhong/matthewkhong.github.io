@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55410223-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-55410223-1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="all">
+    <meta name="googlebot" content="all">
+    <meta name="description" content="UX and HCI researcher with interests in mobile health, AI, and clinical decision support. NLM Postdoctoral Fellow @ UW. PhD @ Georgia Tech. In the job market.">
+    <meta name="author" content="Matthew K. Hong">
+    <meta name="keywords" content="Matthew Hong, Matthew K Hong, Kyung Soo Hong, University of Washington, UDub, UW, Georgia Tech, PhD, User Experience, UX, UX Research, Human-Centered, AI, NLP, Natural Language, Human-Centered AI, User-Centered Design, Human Factors, Health, Health Informatics, Mobile Health, mHealth, Human-Computer Interaction, HCI">
+
+    <title>AI Playbook &#8211; Matthew K. Hong</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/freelancer.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+    <!-- Fancybox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <a href="../index.html"><h3>Matthew K. Hong</h3></a>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>NLM Postdoctoral Fellow @ University of Washington</p>
+                <li>
+                    <a href="../index.html">About</a>
+                </li>
+                <li>
+                    <a href="../news.html">News</a>
+                </li>
+                <li class="active">
+                    <a href="#projectsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Projects</a>
+                    <ul class="collapse list-unstyled" id="projectsSubmenu">
+                        <li class="active">
+                            <a href="#">CO-OP</a>
+                        </li>
+                        <li>
+                            <a href="rapport.html">Rapport</a>
+                        </li>
+                        <li>
+                            <a href="pghd.html">Integrating PGHD</a>
+                        </li>
+                        <li>
+                            <a href="carepartner.html">Care Partners</a>
+                        </li>
+                        <li>
+                            <a href="nlpschema.html">Schema Builder</a>
+                        </li>
+                        <li>
+                            <a href="workspace.html">Interactive Workspaces</a>
+                        </li>
+                        <li>
+                            <a href="vizhealth.html">Visualizing Disparities</a>
+                        </li>
+                        <li>
+                            <a href="capstone.html">Boeing Capstone</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="../publication.html">Publication</a>
+                </li>
+                <li>
+                    <a href="../vitae.html">Vitae</a>
+                </li>
+            </ul>
+            <ul class="list-unstyled CTAs">
+                <li><a href="../files/matt_cv.pdf" target="_blank">CV</a></li>
+                <li><a href="http://scholar.google.com/citations?user=QmwGV_sAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+                <li><a href="https://medium.com/@mkhong87" target="_blank">Medium</a></li>
+                <li><a href="https://www.linkedin.com/in/mkhong87/" target="_blank">LinkedIn</a></li>
+            </ul>
+        </nav>
+
+        <!-- Page Content Holder -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>                    
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav ml-auto">
+                            <!--
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-arrow-left"></i> Previous</a>
+                            </li>
+                            -->
+                            <li class="nav-item active">
+                                <a class="nav-link" href="rapport.html">Next <i class="fas fa-arrow-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> 
+        
+        <div class="container" id="portfolio">
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                    <h3 class="text-left">Planning for Natural Language Failures with the AI Playbook</h3>
+                </div>
+            </div>
+                <br/>
+            <div class="row">
+                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                			<div class="vidContainer col-lg-12 col-md-10 col-sm-10 col-xs-10">
+                				<iframe class="vid" width="100%" height="450%" src="https://www.youtube.com/embed/IA45dPNQH0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                			</div><br><br>
+                            <p style="text-align:left;">We all know that AI can dramatically improve the user experience of software products. But there are a lot of growing pains with AI and the current process for prototyping AI experiences is not as efficient as we want it to be. Product teams working with natural langauge AI products such as chatbots or writing assistants are experiencing major challenges because they are discovering unexpected errors after deploying the product to end-users. Based on a systematic characterization of common failure scenarios in natural language-based systems, we developed the AI Playbook to help product teams proactively address AI failures in early stages of prototyping.</p><br>
+
+                            <ul class="list-inline item-details" style="text-align:left;">
+                                <li><strong>Project Date:&nbsp;</strong>Apr - Jul 2020
+                                </li>
+                                <li><strong>Affiliations:&nbsp;</strong>
+                                    Microsoft Research AI
+                                </li>
+                                <li><strong>Funding:&nbsp;</strong>Microsoft
+                                </li>
+                                <li><strong>Collaborators:&nbsp;</strong>
+                                    Adam Fourney, Derek DeBellis, and Saleema Amershi
+                                </li>
+                            </ul>
+                            <br><br><br>
+                            <h5 style="text-align:left;">Background</h5>
+                            <p style="text-align:left;">There are several reasons that challenge our ability to prototype AI experiences. First, many AI solutions are built on probabilistic machine learning models, and it is difficult to predict failure behaviors of a system. Moreover, design practitioners have varying levels of AI expertise to account for all types of AI failures. Finally, it's difficult to know how users will react to failures in realistic scenarios. So this leaves designers with a choice to take a reactive approach to address errors in the prototyping process.</p><br><br>
+
+                            <h5 style="text-align:left;">Goal</h5>
+                            <p style="text-align:left;">The goal of this research is to understand how we can help product teams working on natural language products address AI failures early enough in the prototyping process.</p>
+                            <br><br>
+                            <h5 style="text-align:left;">Methods</h5>
+                            <ul style="text-align:left;">
+                                <li>Semi-structured interviews with 12 practitioners</li>
+                                <li>Development of taxonomy of common AI failures in natural language products</li>
+                                <li>User study with 9 practitioners (prior participants)</li>
+                            </ul><br>
+
+                            <p style="text-align:left;">Co-design is a powerful design method that democratizes the design process by directly involving the intended users as co-partners to envision and conceive of a technology design through multiple design activities. Through co-design, I was able to characterize the language of patient illness narratives that matter for the adolescent population. </p><br>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+
+                                    <a href="img/portfolio/coop/codesign.jpg" data-fancybox="gallery" data-caption="Storyboard-based Co-design"><img src="img/portfolio/coop/codesign.jpg" width="100%" alt=""/></a>
+
+                                    <br><br>
+                                    <p style="text-align:left;">Through storyboard-based co-design with patient families, I found the right set of building blocks to help young patients reconstruct various aspects of their daily living</p>
+                                </div>
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                                    <a href="img/portfolio/coop/diary.png" data-fancybox="gallery" data-caption="Diary"><img src="img/portfolio/coop/diary.png" width="100%" alt=""/></a>
+                                    <br><br>
+                                    <p style="text-align:left;">In a 2 week diary study, I further explored how to support patients and parents to play a direct role as designers in crafting representations of the patient's illness experiences.</p>
+                                </div>
+                            </div>
+                            <br><br>
+
+                            <h5 style="text-align:left;">Key Findings</h5>
+                            <p style="text-align:left;">Patients overall reported that their daily life consists of routine activities, yet irregular symptoms. While patients attended to personally-felt symptoms, parents were better at capturing contextual details (e.g., location, timing) and activities around the illness experience. Patients were able to develop better symptom literacy in the act of tracking (with illustrations), and coordinate the exchange of sensitive symptoms with their parents outside of the typical context of face-to-face communication. </p>
+                            <p style="text-align:left;">Co-design and diary studies allowed me to identify three important strategies to support patient narratives of their daily experiences during treatment: to allow full expression of how symptoms affect patients’ daily activities, use of various media data representations (e.g., photo, drawing), and support distinct roles for family caregivers to contribute their unique observations of the patient experience.</p>
+                            <p style="text-align:left;">In sum, we can scaffold patients’ participation in care by augmenting patient-generated data in ways that 1) tailor the representation of illness experience to match the patient’s cognitive and linguistic needs, 2) incorporate caregiver observations, and 3) provide rich means to elaborate on their illness experience in the context of everyday life.</p>
+                            <br><br>
+
+                            <h5 style="text-align:left;">Design Process</h5>
+                            <br>
+                            <b>Pictograms</b><br><br>
+                            <main class="grid">
+                                <a href="img/portfolio/coop/icons_v1.png" data-fancybox data-caption="Paper Sketches (v.1)"><img src="img/portfolio/coop/icons_v1.png" width="100%" alt=""/></a>
+                                <a href="img/portfolio/coop/icons_v2.png" data-fancybox data-caption="Computer Rendering (v.2)"><img src="img/portfolio/coop/icons_v2.png" width="100%" alt=""/></a>
+                                <a href="img/portfolio/coop/icons_activities.png" data-fancybox data-caption="Vector Rendering - Activities (v.3)"><img src="img/portfolio/coop/icons_activities.png" width="100%" alt=""/></a>
+                                <a href="img/portfolio/coop/icons_fmood.png" data-fancybox data-caption="Vector Rendering - Female Mood (v.3)"><img src="img/portfolio/coop/icons_fmood.png" width="100%" alt=""/></a>
+                            </main>
+                            <br><br>
+
+                            <p style="text-align:left;">The design of pictographic representations of activities and physical and emotional experiences evolved over the course of two years since the beginning of this project. I started from hand-drawn paper sketches, computer-generated illustrations, and finalized the designs with pixel-perfect vector renderings.</p><br><br>
+
+                            <b>User Interface</b><br><br>
+                            <main class="grid">
+                                <a href="img/portfolio/coop/coop_ui1.png" data-fancybox data-caption="First Mockup"><img src="img/portfolio/coop/coop_ui1.png" width="100%" alt=""/></a>
+                                <a href="img/portfolio/coop/coop_ui2.png" data-fancybox data-caption="Version 1 UI"><img src="img/portfolio/coop/coop_ui2.png" width="100%" alt=""/></a>
+                                <a href="img/portfolio/coop/coop_ui3.png" data-fancybox data-caption="Final UI"><img src="img/portfolio/coop/coop_ui3.png" width="100%" alt=""/></a>
+                            </main><br>
+
+                            <br><br>
+                            <h5 style="text-align:left;">Prototype Design</h5>
+                            <br>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+
+                                    <a href="img/portfolio/coop/coop_UIflow.png" data-fancybox data-caption="CO-OP UI Flow for Patient Users"><img src="img/portfolio/coop/coop_UIflow.png" width="100%" alt=""/></a>
+                                </div>
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                                    <a href="img/portfolio/coop/coop_UIflow_family.png" data-fancybox data-caption="CO-OP UI Flow for Family Users"><img src="img/portfolio/coop/coop_UIflow_family.png" width="100%" alt=""/></a>
+                                </div>
+                            </div>
+                            <br><br>
+                            
+                            <p style="text-align:left;">My research goal is to understand how families can work together to co-construct patients' illness narratives in everyday life. To do this, I employ mobile ecological momentary assessment (mEMA) methods that are geared towards achieving high ecological validity by placing the data collection activities in the hands of patients and their parental caregivers, in their natural setting.</p><br><br>
+
+                            <div class="vidContainer col-lg-12 col-md-10 col-sm-10 col-xs-10">
+                            <iframe class="vid" width="100%" height="450%" src="https://www.youtube.com/embed/DHBh_J_y3Ng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                            <br><br>
+
+                            <p style="text-align:left;">I created CO-OP, an interactive tablet mHealth application that integrates self-reported observations with passively collected data such as tablet usage, location, and social context. The application can generate rich perspectives on the patient's illness experiences, including captured media data and collateral information about when and where side effects are occurring. I am applying a mix of quantitative and qualitative assessments—derived from mobile sensor data, daily mEMA, surveys and interviews—to determine adherence, engagement, and patients’ self-efficacy to manage their illness. </p>
+                            <br>
+
+                            <div class="row">
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                                    <br>
+                                    <p style="text-align:left;">This research will contribute computational techniques that can inform Machine Learning (ML) models to automate data triangulation between active and passively collected patient data. With this knowledge, we can predict symptom occurrence based on its immediate context, such as co-occurring activities, location, and time of day. We can also identify opportune moments to prompt the user to make an entry upon completing a routine. One envisioned use case is to mitigate the user's logging burden by automatically suggesting a set of likely symptoms at a specified time or location.</p>
+                                </div>
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                                    <a href="img/portfolio/coop/pipeline.png" data-fancybox data-caption="CO-OP Data Pipeline"><img src="img/portfolio/coop/pipeline.png" width="100%" alt=""/></a>
+                                </div>
+                            </div>
+                            <br><br>
+
+                            
+                            <br><br>
+
+                            <h5 style="text-align:left;">Publications</h5>
+                            <table class="table" style="text-align:left;">
+                            <tbody>
+                            <tr>
+                            <td style="border-top: none;"><a href="https://dl.acm.org/doi/10.1145/3313831.3376426" target="_blank"><img src="img/acmlogo.png" width="25" height="25" alt="ACM DL Author-ize service" style="vertical-align:middle"/></a></td>
+                            <td style="border-top: none;"><strong>Using Diaries to Probe the Illness Experiences of Adolescent Patients and Parental Caregivers.</strong><br>
+                                                <u>Matthew K. Hong</u>, Udaya Lakshmi, Kimberly Do, Sampath Prahalad, Thomas Olson, Rosa Arriaga, and Lauren Wilcox. Proceedings of the 38th Annual ACM Conference on Human Factors in Computing Systems (CHI 2020), Honolulu, HI, USA, 2020 (<em>24.3% acceptance rate</em>).</td>
+                            </tr>
+                            <tr>
+                            <td style="border-top: none;"><a href="https://dl.acm.org/authorize?N658091" target="_blank"><img src="img/acmlogo.png" width="25" height="25" alt="ACM DL Author-ize service" style="vertical-align:middle"/></a></td>
+                            <td style="border-top: none;"><strong>Visual ODLs: Co-Designing Patient-Generated Observations of Daily Living to Support Data-Driven Conversations in Pediatric Care.</strong><br>
+                            <u>Matthew K. Hong</u>, Udaya Lakshmi, Thomas Olson, and Lauren Wilcox. Proceedings of the 36th Annual ACM Conference on Human Factors in Computing Systems (CHI 2018), Montréal, Québec, Canada, 2018 (<em>25% acceptance rate</em>).</td>
+                            </tr>
+                            <tr>
+                            <td style="border-top: none;"><a href="http://wish.gatech.edu/wp-content/uploads/hong_matthew.pdf" target="_blank"><img src="img/pdficon.jpg" height="25"></a></td>
+                            <td style="border-top: none;"><strong>Just-in-Time Design: In Situ Methods for Capturing and Articulating Adolescents’ Illness Experiences.</strong><br>
+                            <u>Matthew K. Hong</u>, Udaya Lakshmi and Lauren Wilcox. Workshop on Interactive Systems in Healthcare (WISH 2017), Washington, DC, USA, 2017.</td>
+                            </tr>
+                            </tbody>
+                            </table><br>
+                </div>
+            </div>
+            <br><br>
+            <!-- Footer -->
+            <div class="footer">Copyright &copy; Matthew Hong <script>document.write(new Date().getFullYear());</script></div>
+        </div>
+        </div>
+    </div>
+    
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    <!-- Panels -->
+    <script src="../js/panels.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+                $(this).toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
