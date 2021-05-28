@@ -142,7 +142,7 @@
                 <br/>
             <div class="row">
                 <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                			<div class="vidContainer col-lg-12 col-md-10 col-sm-10 col-xs-10">
+                			<div class="vidContainer col-lg-10 col-md-10 col-sm-10 col-xs-10">
                 				<iframe class="vid" width="100%" height="450%" src="https://www.youtube.com/embed/IA45dPNQH0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 			</div><br><br>
                             <p style="text-align:left;">We all know that AI can dramatically improve the user experience of software products. But there are a lot of growing pains with AI and the current process for prototyping AI experiences is not as efficient as we want it to be. Product teams working with natural langauge AI products such as chatbots or writing assistants are experiencing major challenges because they are discovering unexpected errors after deploying the product to end-users. Based on a systematic characterization of common failure scenarios in natural language-based systems, we developed the AI Playbook to help product teams proactively address AI failures in early stages of prototyping.</p><br>
@@ -161,38 +161,33 @@
                             </ul>
                             <br><br><br>
                             <h5 style="text-align:left;">Background</h5>
-                            <p style="text-align:left;">There are several reasons that challenge our ability to prototype AI experiences. First, many AI solutions are built on probabilistic machine learning models, and it is difficult to predict failure behaviors of a system. Moreover, design practitioners have varying levels of AI expertise to account for all types of AI failures. Finally, it's difficult to know how users will react to failures in realistic scenarios. So this leaves designers with a choice to take a reactive approach to address errors in the prototyping process.</p><br><br>
+                            <p style="text-align:left;">There are several reasons that challenge our ability to prototype AI experiences. First, many AI solutions are built on probabilistic machine learning models, and it is difficult to predict failure behaviors of a system. Moreover, design practitioners have varying levels of AI expertise to account for all types of AI failures. Finally, it's difficult to know how users will react to failures in realistic scenarios. So this leaves designers with a choice to take a reactive approach to address errors in the prototyping process.</p>
+                            <p style="text-align:left;">Suppose we are planning a trip and ask an AI assistant about the weather in Ontario (which is in Canada). Our assistant, however, might think we are talking about a city in California, which happens to carry the same name Ontario with the same spelling and pronunciation. So how can we help product teams anticipate failures of this nature?</p>
+                            <br><br>
 
                             <h5 style="text-align:left;">Goal</h5>
                             <p style="text-align:left;">The goal of this research is to understand how we can help product teams working on natural language products address AI failures early enough in the prototyping process.</p>
                             <br><br>
                             <h5 style="text-align:left;">Methods</h5>
                             <ul style="text-align:left;">
-                                <li>Semi-structured interviews with 12 practitioners</li>
+                                <li>Semi-structured interviews with 12 practitioners (user researchers, designers, and program managers)</li>
                                 <li>Development of taxonomy of common AI failures in natural language products</li>
                                 <li>User study with 9 practitioners (prior participants)</li>
                             </ul><br>
 
-                            <p style="text-align:left;">Co-design is a powerful design method that democratizes the design process by directly involving the intended users as co-partners to envision and conceive of a technology design through multiple design activities. Through co-design, I was able to characterize the language of patient illness narratives that matter for the adolescent population. </p><br>
+                            <p style="text-align:left;">We developed our taxonomy starting with 8 experts in NLP research, and collected our initial set of failures from previous work on information retrieval, dialogue management, speech recognition, and slot filling, etc. to capture a wide range of natural language scenarios. With this initial set of failures, we organized them based on failures that fall under attention, input perception, understanding, and response generation. We then did a second round of iteration by walking through concrete real-world examples of NL tasks for each scenario (like extracting a meeting request from an email, or booking a flight with a voice assistant, etc.). After this, we arrived at 16 different failure scenarios distributed across the attention, perception, understanding and response generation error categories.</p><br>
 
                             <div class="row">
-                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
-
-                                    <a href="img/portfolio/coop/codesign.jpg" data-fancybox="gallery" data-caption="Storyboard-based Co-design"><img src="img/portfolio/coop/codesign.jpg" width="100%" alt=""/></a>
-
+                                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                                    <a href="img/portfolio/aiplaybook/taxonomy.png" data-fancybox="gallery" data-caption="Taxonomy of AI Failures"><img src="img/portfolio/aiplaybook/taxonomy.png" width="100%" alt=""/></a>
                                     <br><br>
-                                    <p style="text-align:left;">Through storyboard-based co-design with patient families, I found the right set of building blocks to help young patients reconstruct various aspects of their daily living</p>
-                                </div>
-                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
-                                    <a href="img/portfolio/coop/diary.png" data-fancybox="gallery" data-caption="Diary"><img src="img/portfolio/coop/diary.png" width="100%" alt=""/></a>
-                                    <br><br>
-                                    <p style="text-align:left;">In a 2 week diary study, I further explored how to support patients and parents to play a direct role as designers in crafting representations of the patient's illness experiences.</p>
+                                    <p style="text-align:left;">Taxonomy of AI Failure Types and Scenarios</p>
                                 </div>
                             </div>
                             <br><br>
 
                             <h5 style="text-align:left;">Key Findings</h5>
-                            <p style="text-align:left;">Patients overall reported that their daily life consists of routine activities, yet irregular symptoms. While patients attended to personally-felt symptoms, parents were better at capturing contextual details (e.g., location, timing) and activities around the illness experience. Patients were able to develop better symptom literacy in the act of tracking (with illustrations), and coordinate the exchange of sensitive symptoms with their parents outside of the typical context of face-to-face communication. </p>
+                            <p style="text-align:left;">Our formative interviews with practitioners from a large technology company revealed that, in addition to the challenges of anticipating AI errors, prototyping was often overlooked altogether or focused only on idealized scenarios for reasons including a lack of tools and limited time allocated to this stage of development.</p>
                             <p style="text-align:left;">Co-design and diary studies allowed me to identify three important strategies to support patient narratives of their daily experiences during treatment: to allow full expression of how symptoms affect patients’ daily activities, use of various media data representations (e.g., photo, drawing), and support distinct roles for family caregivers to contribute their unique observations of the patient experience.</p>
                             <p style="text-align:left;">In sum, we can scaffold patients’ participation in care by augmenting patient-generated data in ways that 1) tailor the representation of illness experience to match the patient’s cognitive and linguistic needs, 2) incorporate caregiver observations, and 3) provide rich means to elaborate on their illness experience in the context of everyday life.</p>
                             <br><br>
