@@ -63,7 +63,10 @@
                     <a href="#projectsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Projects</a>
                     <ul class="collapse list-unstyled" id="projectsSubmenu">
                         <li class="active">
-                            <a href="#">CO-OP</a>
+                            <a href="#">AI Playbook</a>
+                        </li>
+                        <li>
+                            <a href="coop.html">CO-OP</a>
                         </li>
                         <li>
                             <a href="rapport.html">Rapport</a>
@@ -126,7 +129,7 @@
                             </li>
                             -->
                             <li class="nav-item active">
-                                <a class="nav-link" href="rapport.html">Next <i class="fas fa-arrow-right"></i></a>
+                                <a class="nav-link" href="coop.html">Next <i class="fas fa-arrow-right"></i></a>
                             </li>
                         </ul>
                     </div>
@@ -142,9 +145,7 @@
                 <br/>
             <div class="row">
                 <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                			<div class="vidContainer col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                				<iframe class="vid" width="100%" height="450%" src="https://www.youtube.com/embed/IA45dPNQH0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                			</div><br><br>
+                			<a href="img/portfolio/aiplaybook/aiplaybook_2020.png" data-fancybox="gallery"><img src="img/portfolio/aiplaybook/aiplaybook_2020.png" width="100%" alt=""/></a><br><br>
                             <p style="text-align:left;">We all know that AI can dramatically improve the user experience of software products. But there are a lot of growing pains with AI and the current process for prototyping AI experiences is not as efficient as we want it to be. Product teams working with natural langauge AI products such as chatbots or writing assistants are experiencing major challenges because they are discovering unexpected errors after deploying the product to end-users. Based on a systematic characterization of common failure scenarios in natural language-based systems, we developed the AI Playbook to help product teams proactively address AI failures in early stages of prototyping.</p><br>
 
                             <ul class="list-inline item-details" style="text-align:left;">
@@ -155,13 +156,17 @@
                                 </li>
                                 <li><strong>Funding:&nbsp;</strong>Microsoft
                                 </li>
+                                <li><strong>Role:&nbsp;</strong>
+                                    Study design, data collection, tool development, and paper writeup
+                                </li>
                                 <li><strong>Collaborators:&nbsp;</strong>
                                     Adam Fourney, Derek DeBellis, and Saleema Amershi
                                 </li>
                             </ul>
                             <br><br><br>
                             <h5 style="text-align:left;">Background</h5>
-                            <p style="text-align:left;">There are several reasons that challenge our ability to prototype AI experiences. First, many AI solutions are built on probabilistic machine learning models, and it is difficult to predict failure behaviors of a system. Moreover, design practitioners have varying levels of AI expertise to account for all types of AI failures. Finally, it's difficult to know how users will react to failures in realistic scenarios. So this leaves designers with a choice to take a reactive approach to address errors in the prototyping process.</p>
+                            <a href="img/portfolio/aiplaybook/aiplaybook_background.png" data-fancybox="gallery"><img src="img/portfolio/aiplaybook/aiplaybook_background.png" width="100%" alt=""/></a><br><br>
+                            <p style="text-align:left;">There are several reasons that challenge our ability to prototype AI experiences. First, many AI solutions are built on probabilistic machine learning models, and it is difficult to predict failure behaviors of a system. Moreover, design practitioners have varying levels of AI expertise to account for all types of AI failures. Finally, it's difficult to know how users will react to failures in realistic scenarios. So this leaves designers with no choice but to take a reactive approach to address errors in the prototyping process.</p>
                             <p style="text-align:left;">Suppose we are planning a trip and ask an AI assistant about the weather in Ontario (which is in Canada). Our assistant, however, might think we are talking about a city in California, which happens to carry the same name Ontario with the same spelling and pronunciation. So how can we help product teams anticipate failures of this nature?</p>
                             <br><br>
 
@@ -177,96 +182,43 @@
 
                             <p style="text-align:left;">We developed our taxonomy starting with 8 experts in NLP research, and collected our initial set of failures from previous work on information retrieval, dialogue management, speech recognition, and slot filling, etc. to capture a wide range of natural language scenarios. With this initial set of failures, we organized them based on failures that fall under attention, input perception, understanding, and response generation. We then did a second round of iteration by walking through concrete real-world examples of NL tasks for each scenario (like extracting a meeting request from an email, or booking a flight with a voice assistant, etc.). After this, we arrived at 16 different failure scenarios distributed across the attention, perception, understanding and response generation error categories.</p><br>
 
-                            <div class="row">
-                                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                                    <a href="img/portfolio/aiplaybook/taxonomy.png" data-fancybox="gallery" data-caption="Taxonomy of AI Failures"><img src="img/portfolio/aiplaybook/taxonomy.png" width="100%" alt=""/></a>
-                                    <br><br>
-                                    <p style="text-align:left;">Taxonomy of AI Failure Types and Scenarios</p>
-                                </div>
-                            </div>
+                            <h6 style="text-align:left;">Taxonomy of AI Failure Types and Scenarios</h6>
+
+                            <h5 style="text-align:left;">Under Construction...</h5>
                             <br><br>
 
                             <h5 style="text-align:left;">Key Findings</h5>
                             <p style="text-align:left;">Our formative interviews with practitioners from a large technology company revealed that, in addition to the challenges of anticipating AI errors, prototyping was often overlooked altogether or focused only on idealized scenarios for reasons including a lack of tools and limited time allocated to this stage of development.</p>
-                            <p style="text-align:left;">Co-design and diary studies allowed me to identify three important strategies to support patient narratives of their daily experiences during treatment: to allow full expression of how symptoms affect patients’ daily activities, use of various media data representations (e.g., photo, drawing), and support distinct roles for family caregivers to contribute their unique observations of the patient experience.</p>
-                            <p style="text-align:left;">In sum, we can scaffold patients’ participation in care by augmenting patient-generated data in ways that 1) tailor the representation of illness experience to match the patient’s cognitive and linguistic needs, 2) incorporate caregiver observations, and 3) provide rich means to elaborate on their illness experience in the context of everyday life.</p>
-                            <br><br>
-
-                            <h5 style="text-align:left;">Design Process</h5>
-                            <br>
-                            <b>Pictograms</b><br><br>
-                            <main class="grid">
-                                <a href="img/portfolio/coop/icons_v1.png" data-fancybox data-caption="Paper Sketches (v.1)"><img src="img/portfolio/coop/icons_v1.png" width="100%" alt=""/></a>
-                                <a href="img/portfolio/coop/icons_v2.png" data-fancybox data-caption="Computer Rendering (v.2)"><img src="img/portfolio/coop/icons_v2.png" width="100%" alt=""/></a>
-                                <a href="img/portfolio/coop/icons_activities.png" data-fancybox data-caption="Vector Rendering - Activities (v.3)"><img src="img/portfolio/coop/icons_activities.png" width="100%" alt=""/></a>
-                                <a href="img/portfolio/coop/icons_fmood.png" data-fancybox data-caption="Vector Rendering - Female Mood (v.3)"><img src="img/portfolio/coop/icons_fmood.png" width="100%" alt=""/></a>
-                            </main>
-                            <br><br>
-
-                            <p style="text-align:left;">The design of pictographic representations of activities and physical and emotional experiences evolved over the course of two years since the beginning of this project. I started from hand-drawn paper sketches, computer-generated illustrations, and finalized the designs with pixel-perfect vector renderings.</p><br><br>
-
-                            <b>User Interface</b><br><br>
-                            <main class="grid">
-                                <a href="img/portfolio/coop/coop_ui1.png" data-fancybox data-caption="First Mockup"><img src="img/portfolio/coop/coop_ui1.png" width="100%" alt=""/></a>
-                                <a href="img/portfolio/coop/coop_ui2.png" data-fancybox data-caption="Version 1 UI"><img src="img/portfolio/coop/coop_ui2.png" width="100%" alt=""/></a>
-                                <a href="img/portfolio/coop/coop_ui3.png" data-fancybox data-caption="Final UI"><img src="img/portfolio/coop/coop_ui3.png" width="100%" alt=""/></a>
-                            </main><br>
-
-                            <br><br>
-                            <h5 style="text-align:left;">Prototype Design</h5>
-                            <br>
-
-                            <div class="row">
-                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
-
-                                    <a href="img/portfolio/coop/coop_UIflow.png" data-fancybox data-caption="CO-OP UI Flow for Patient Users"><img src="img/portfolio/coop/coop_UIflow.png" width="100%" alt=""/></a>
-                                </div>
-                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
-                                    <a href="img/portfolio/coop/coop_UIflow_family.png" data-fancybox data-caption="CO-OP UI Flow for Family Users"><img src="img/portfolio/coop/coop_UIflow_family.png" width="100%" alt=""/></a>
-                                </div>
-                            </div>
-                            <br><br>
                             
-                            <p style="text-align:left;">My research goal is to understand how families can work together to co-construct patients' illness narratives in everyday life. To do this, I employ mobile ecological momentary assessment (mEMA) methods that are geared towards achieving high ecological validity by placing the data collection activities in the hands of patients and their parental caregivers, in their natural setting.</p><br><br>
-
-                            <div class="vidContainer col-lg-12 col-md-10 col-sm-10 col-xs-10">
-                            <iframe class="vid" width="100%" height="450%" src="https://www.youtube.com/embed/DHBh_J_y3Ng" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-                            <br><br>
-
-                            <p style="text-align:left;">I created CO-OP, an interactive tablet mHealth application that integrates self-reported observations with passively collected data such as tablet usage, location, and social context. The application can generate rich perspectives on the patient's illness experiences, including captured media data and collateral information about when and where side effects are occurring. I am applying a mix of quantitative and qualitative assessments—derived from mobile sensor data, daily mEMA, surveys and interviews—to determine adherence, engagement, and patients’ self-efficacy to manage their illness. </p>
-                            <br>
-
-                            <div class="row">
-                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
-                                    <br>
-                                    <p style="text-align:left;">This research will contribute computational techniques that can inform Machine Learning (ML) models to automate data triangulation between active and passively collected patient data. With this knowledge, we can predict symptom occurrence based on its immediate context, such as co-occurring activities, location, and time of day. We can also identify opportune moments to prompt the user to make an entry upon completing a routine. One envisioned use case is to mitigate the user's logging burden by automatically suggesting a set of likely symptoms at a specified time or location.</p>
-                                </div>
-                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
-                                    <a href="img/portfolio/coop/pipeline.png" data-fancybox data-caption="CO-OP Data Pipeline"><img src="img/portfolio/coop/pipeline.png" width="100%" alt=""/></a>
-                                </div>
-                            </div>
                             <br><br>
 
                             
+
+                            <h5 style="text-align:left;">Presentation & Demo</h5>
+                            <div class="row">
+                                <div class="vidContainer col-lg-9 col-md-10 col-sm-10 col-xs-10">
+                                    <iframe class="vid" width="100%" height="100%" src="https://www.youtube.com/embed/IA45dPNQH0w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-lg-3 col-md-10 col-sm-10 col-xs-10">
+                                    <a href="https://microsoft.github.io/HAXPlaybook/" target="_blank"><img src="img/portfolio/aiplaybook/link.png" class="img-responsive img-centered" alt="" width="70%"></a><br>
+                                    <p style="text-align:left;">The HAX Playbook (previously AI Playbook) is an interactive tool for generating interaction scenarios to test when designing user-facing AI systems. Click the image for an interactive demo.</p>
+                                </div>
+                            </div>
                             <br><br>
 
                             <h5 style="text-align:left;">Publications</h5>
                             <table class="table" style="text-align:left;">
                             <tbody>
                             <tr>
-                            <td style="border-top: none;"><a href="https://dl.acm.org/doi/10.1145/3313831.3376426" target="_blank"><img src="img/acmlogo.png" width="25" height="25" alt="ACM DL Author-ize service" style="vertical-align:middle"/></a></td>
-                            <td style="border-top: none;"><strong>Using Diaries to Probe the Illness Experiences of Adolescent Patients and Parental Caregivers.</strong><br>
-                                                <u>Matthew K. Hong</u>, Udaya Lakshmi, Kimberly Do, Sampath Prahalad, Thomas Olson, Rosa Arriaga, and Lauren Wilcox. Proceedings of the 38th Annual ACM Conference on Human Factors in Computing Systems (CHI 2020), Honolulu, HI, USA, 2020 (<em>24.3% acceptance rate</em>).</td>
+                            <td><a href="https://dl.acm.org/doi/10.1145/3411764.3445735" target="_blank"><img src="img/acmlogo.png" width="25" height="25" alt="ACM DL Author-ize service" style="vertical-align:middle"/></a></td>
+                            <td><strong>Planning for Natural Language Failures with the AI Playbook.</strong><br>
+                            <u>Matthew K. Hong</u>, Adam Fourney, Derek DeBellis, and Saleema Amershi. Proceedings of the 39th Annual ACM Conference on Human Factors in Computing Systems (CHI 2021), Yokohama, Japan, 2021 (<em>26.3% acceptance rate</em>).
+                            </td>
                             </tr>
                             <tr>
-                            <td style="border-top: none;"><a href="https://dl.acm.org/authorize?N658091" target="_blank"><img src="img/acmlogo.png" width="25" height="25" alt="ACM DL Author-ize service" style="vertical-align:middle"/></a></td>
-                            <td style="border-top: none;"><strong>Visual ODLs: Co-Designing Patient-Generated Observations of Daily Living to Support Data-Driven Conversations in Pediatric Care.</strong><br>
-                            <u>Matthew K. Hong</u>, Udaya Lakshmi, Thomas Olson, and Lauren Wilcox. Proceedings of the 36th Annual ACM Conference on Human Factors in Computing Systems (CHI 2018), Montréal, Québec, Canada, 2018 (<em>25% acceptance rate</em>).</td>
-                            </tr>
-                            <tr>
-                            <td style="border-top: none;"><a href="http://wish.gatech.edu/wp-content/uploads/hong_matthew.pdf" target="_blank"><img src="img/pdficon.jpg" height="25"></a></td>
-                            <td style="border-top: none;"><strong>Just-in-Time Design: In Situ Methods for Capturing and Articulating Adolescents’ Illness Experiences.</strong><br>
-                            <u>Matthew K. Hong</u>, Udaya Lakshmi and Lauren Wilcox. Workshop on Interactive Systems in Healthcare (WISH 2017), Washington, DC, USA, 2017.</td>
+                            <td style="border-top: none;"><a href="https://github.com/microsoft/HAXPlaybook" target="_blank"><img src="img/githublogo.png" width="25" height="25" alt="GitHub" style="vertical-align:middle"/></a></td>
+                            <td style="border-top: none;"><strong>HAX Playbook Open Source Repository.</strong><br>
+                            Nicholas King, Jingya Chen, Kathleen Walker, Mihaela Vorvoreanu, Xavier Fernandes, Juan Lema, Adam Fourney, Saleema Amershi, Derek DeBellis, <u>Matthew K. Hong</u>.</td>
                             </tr>
                             </tbody>
                             </table><br>
