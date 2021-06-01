@@ -65,6 +65,9 @@ a, a:hover, a:focus {
     font-weight: 300;
 }
 
+tr:nth-child(even) {background-color: #f2f2f2;}
+td:first-child {background-color: #fafafa;}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -333,6 +336,11 @@ ul.timeline > li:before {
 
 div.scroll {
     height: 300px;
+    overflow: auto;
+}
+
+div.scroll3 {
+    height: 500px;
     overflow: auto;
 }
 

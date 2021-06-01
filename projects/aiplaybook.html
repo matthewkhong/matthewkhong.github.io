@@ -145,7 +145,7 @@
                 <br/>
             <div class="row">
                 <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                			<a href="img/portfolio/aiplaybook/aiplaybook_2020.png" data-fancybox="gallery"><img src="img/portfolio/aiplaybook/aiplaybook_2020.png" width="100%" alt=""/></a><br><br>
+                			<a href="img/portfolio/aiplaybook/aiplaybook_background.png" data-fancybox="gallery"><img src="img/portfolio/aiplaybook/aiplaybook_background.png" width="100%" alt=""/></a><br><br>
                             <p style="text-align:left;">We all know that AI can dramatically improve the user experience of software products. But there are a lot of growing pains with AI and the current process for prototyping AI experiences is not as efficient as we want it to be. Product teams working with natural langauge AI products such as chatbots or writing assistants are experiencing major challenges because they are discovering unexpected errors after deploying the product to end-users. Based on a systematic characterization of common failure scenarios in natural language-based systems, we developed the AI Playbook to help product teams proactively address AI failures in early stages of prototyping.</p><br>
 
                             <ul class="list-inline item-details" style="text-align:left;">
@@ -165,9 +165,16 @@
                             </ul>
                             <br><br><br>
                             <h5 style="text-align:left;">Background</h5>
-                            <a href="img/portfolio/aiplaybook/aiplaybook_background.png" data-fancybox="gallery"><img src="img/portfolio/aiplaybook/aiplaybook_background.png" width="100%" alt=""/></a><br><br>
-                            <p style="text-align:left;">There are several reasons that challenge our ability to prototype AI experiences. First, many AI solutions are built on probabilistic machine learning models, and it is difficult to predict failure behaviors of a system. Moreover, design practitioners have varying levels of AI expertise to account for all types of AI failures. Finally, it's difficult to know how users will react to failures in realistic scenarios. So this leaves designers with no choice but to take a reactive approach to address errors in the prototyping process.</p>
-                            <p style="text-align:left;">Suppose we are planning a trip and ask an AI assistant about the weather in Ontario (which is in Canada). Our assistant, however, might think we are talking about a city in California, which happens to carry the same name Ontario with the same spelling and pronunciation. So how can we help product teams anticipate failures of this nature?</p>
+                            <p style="text-align:left;">There are several reasons that challenge our ability to prototype AI experiences:</p>
+                            <ul>
+                                <li>Many AI solutions are built on probabilistic machine learning models, and it is difficult to predict failure behaviors of a system.</li>
+                                <li>Design practitioners have varying levels of AI expertise to account for all types of AI failures.</li>
+                                <li>Most importantly, it's difficult to know how users will react to failures in realistic scenarios.</li>
+                            </ul>
+                            <p style="text-align:left;">This leaves design praactitioners with no choice but to take a reactive approach to address errors in the prototyping process.</p><br>
+
+                            <center><a href="img/portfolio/aiplaybook/aiplaybook_example.png" data-fancybox="gallery"><img src="img/portfolio/aiplaybook/aiplaybook_example.png" width="70%" alt=""/></a></center><br><br>
+                            <p style="text-align:left;">Suppose we are planning a trip and ask an AI assistant about the weather in <i>Ontario</i> (which is in Canada). Our assistant, however, might think we are talking about a city in California, which happens to carry the same name <i>Ontario</i> with the same spelling and pronunciation. So how can we help product teams anticipate failures of this nature?</p>
                             <br><br>
 
                             <h5 style="text-align:left;">Goal</h5>
@@ -178,17 +185,167 @@
                                 <li>Semi-structured interviews with 12 practitioners (user researchers, designers, and program managers)</li>
                                 <li>Development of taxonomy of common AI failures in natural language products</li>
                                 <li>User study with 9 practitioners (prior participants)</li>
-                            </ul><br>
+                            </ul>
 
-                            <p style="text-align:left;">We developed our taxonomy starting with 8 experts in NLP research, and collected our initial set of failures from previous work on information retrieval, dialogue management, speech recognition, and slot filling, etc. to capture a wide range of natural language scenarios. With this initial set of failures, we organized them based on failures that fall under attention, input perception, understanding, and response generation. We then did a second round of iteration by walking through concrete real-world examples of NL tasks for each scenario (like extracting a meeting request from an email, or booking a flight with a voice assistant, etc.). After this, we arrived at 16 different failure scenarios distributed across the attention, perception, understanding and response generation error categories.</p><br>
+                            <p style="text-align:left;">We developed our taxonomy starting with 8 experts in NLP research, by:</p>
+                            <ol>
+                                <li>Capturing a wide range of natural language scenarios from previous work on information retrieval, dialogue management, speech recognition, and slot filling, etc.</li>
+                                <li>Organizing the scenarios based on failures that fall under attention, input perception, understanding, and response generation.</li>
+                                <li>Walking through concrete real-world examples of NL tasks for each scenario (e.g., extracting a meeting request from an email, or booking a flight with a voice assistant, etc.).</li>
+                            </ol>
+                            <br>
+                            <h6 style="text-align:left;">Taxonomy of AI Failure Types and Scenarios in NL Products</h6>
+                            <p style="text-align:left;">After multiple rounds of iteration, we arrived at 16 different failure scenarios distributed across failure types, source, scenarios, and example scenarios with NL products.</p>
+                            <div style="font-size:12px;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <br>
+                                <table>
+                                  <tr>
+                                    <th width="100">Failure Type</th>
+                                    <th width="120">Failure Source</th>
+                                    <th width="340">Failure Scenario</th>
+                                    <th width="340">Example Failure Scenario with NL Products</th>
+                                  </tr>
+                                </table>
+                                <div class="scroll3">
+                                    <table>
+                                      <tr height="10">
+                                        <th width="100"></th>
+                                        <th width="120"></th>
+                                        <th width="340"></th>
+                                        <th width="340"></th>
+                                      </tr>
+                                      <tr>
+                                        <td>Attention</td>
+                                        <td>Missed trigger</td>
+                                        <td>System fails to detect a valid triggering event</td>
+                                        <td>[<i>Scheduling assistant</i>] fails to detect a meeting request in an email.<br>[<i>Voice assistant</i>] fails to detect a wake word.</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Spurious trigger</td>
+                                        <td>System triggers in the absence of a valid triggering event (it triggers when not intended).</td>
+                                        <td>[<i>Scheduling assistant</i>] mistakes meeting minutes as a new meeting request.<br>[<i>Voice assistant</i>] mistakes background speech as a wake word.</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Delayed trigger</td>
+                                        <td>System detects a valid triggering event, but responds too late to be useful.</td>
+                                        <td>[<i>Scheduling assistant</i>] detects a meeting request, but offers support only after the user has already manually scheduled the meeting.</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Perception</td>
+                                        <td>Truncation</td>
+                                        <td>System begins capturing input too late, or stops capturing input too early, and thus acts only on partial input.</td>
+                                        <td>[<i>Voice assistant</i>] interprets a pause as the end of an utterance, and answers before the user has finished speaking.</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Overcapture</td>
+                                        <td>System begins capturing input too early, or stops capturing input too late, and thus acts on spurious data.</td>
+                                        <td>[<i>Voice assistant</i>] captures user’s intended query along with a few more words spoken after the query.</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Noisy channel</td>
+                                        <td>User input is corrupted by spelling errors in written text, or background noise in audio input.</td>
+                                        <td>[<i>Search engine</i>] user misspells their search query.<br>[<i>Voice Assistant</i>] background noise, such as music, makes speech less discernible.</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Transcription</td>
+                                        <td>System generates common transcription errors such as homonyms, homophones, plural word forms, etc.</td>
+                                        <td>[<i>Automatic captioning service</i>] fails to transcribe certain speech utterances by adding or removing inflected endings (e.g., -ing, -s, -ed).</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Understanding</td>
+                                        <td>No understanding</td>
+                                        <td>System fails to map the user’s input to any known action or response category.</td>
+                                        <td>[<i>Virtual assistant</i>] responds “I’m sorry, I don’t know how to answer that question.”</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Misunderstanding</td>
+                                        <td>System maps the user’s input to the wrong category of action or response.</td>
+                                        <td>[<i>Shopping assistant</i>] mistakes an item refund request for an item exchange request.</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>No understanding</td>
+                                        <td>System correctly infers some aspects of the user’s intent, (e.g., correct action or response category) but get some details wrong.</td>
+                                        <td>[<i>Travel assistant</i>] mistakes the origin for the destination.<br>[<i>Scheduling assistant</i>] fails to consider a location’s timezone in a meeting request.</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Ambiguity</td>
+                                        <td>There may be several reasonable interpretations of the user’s intent, leading to ambiguity. The system fails to correctly resolve ambiguity.</td>
+                                        <td>[<i>Search engine</i>] responds to the query “US Open” by returning results for tennis, when the user intended golf.<br>[<i>Scheduling assistant</i>] sends a meeting request to the wrong “John”.</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Response generation</td>
+                                        <td>Action execution</td>
+                                        <td>System fails in executing the desired action.</td>
+                                        <td>[<i>Travel assistant</i>] attempts to re-book a trip by canceling and reissuing a ticket, but fails partway, leaving the reservation in an unknown state.</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Generative response</td>
+                                        <td>System generates an incoherent, inappropriate, factually incorrect or partially correct response.</td>
+                                        <td>[<i>Social chatbot</i>] produces an offensive response to a user’s input.</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Ranked list</td>
+                                        <td>System produces a ranked list with low precision, recall, or result diversity.</td>
+                                        <td>[<i>Presentation design assistant</i>] offers five recommended slide designs, but two designs are duplicates, or are otherwise indiscernible.</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Binary<br> classification</td>
+                                        <td>System generates a false negative or false positive response.</td>
+                                        <td>[<i>Spam filter</i>] misclassifies an email as unsolicited spam.<br>[<i>Content moderation system</i>] misclassifies a comment as obscene.</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <td>Multi-class classification</td>
+                                        <td>System fails to produce correct classifications among close or distant categories.</td>
+                                        <td>[<i>Email client</i>] classifies a receipt as a promotional email.</td>
+                                      </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <br><br><br>
 
-                            <h6 style="text-align:left;">Taxonomy of AI Failure Types and Scenarios</h6>
+                            <h5 style="text-align:left;">AI Playbook Design</h5>
+                            <p style="text-align:left;">Using our taxonomy as a foundation, we designed the AI Playbook, which is an interactive survey that allows practitioners to walk-through a product or feature that they are designing, input modality, trigger, delimiter, and the form of the expected response.</p><br>
+                            <a href="img/portfolio/aiplaybook/aiplaybookfull.png" data-fancybox="gallery"><img src="img/portfolio/aiplaybook/aiplaybookfull.png" width="100%" alt=""/></a><br><br>
+                            <p style="text-align:left;">The AI Playbook consists of four main features:</p>
 
-                            <h5 style="text-align:left;">Under Construction...</h5>
+                            <ul>
+                                <li><b>Interactive Survey (A)</b> allows users to navigate between different question and answer pairs as they describe their envisioned AI scenario</li>
+                                <li><b>Help Center (B)</b> displays supportive information (e.g., description and examples) tailored to the user's selected answer choice</li>
+                                <li><b>Scenario Builder (C)</b> interactively builds up related scenarios to test, allowing users to efficiently explore the consequences of different design choices</li>
+                                <li><b>Playbook Report (D)</b> outputs a report of recommended test scenarios along with contextualized explanations and examples to further aid in developing and testing prototypes.</li>
+                            </ul>
+
+                            <p style="text-align:left;">Imagine you were a designer working on a voice-based personal assistant. You would start with Conversational AI, then move on to select speech as the primary input. Your system will have a clear way of knowing when to trigger because it listens for a wake-word (such as "Alexa" or "Hey Siri"). As you continue to answer the questions, the Scenario section interactively builds up the related failure scenarios, which allows you to explore the consequences of the different design choices. In the end, the Playbook then outputs a full report of test scenarios and actionable guidance on how to simulate them. For example, we can simulate a list with reduced diversity by inserting a duplicate item to the list or adding an article to a list item.</p>
                             <br><br>
-
                             <h5 style="text-align:left;">Key Findings</h5>
-                            <p style="text-align:left;">Our formative interviews with practitioners from a large technology company revealed that, in addition to the challenges of anticipating AI errors, prototyping was often overlooked altogether or focused only on idealized scenarios for reasons including a lack of tools and limited time allocated to this stage of development.</p>
+                            <h6 style="text-align:left;">Challenges</h6>
+                            <p style="text-align:left;">Our formative interviews with design and AI practitioners from a large technology company revealed three main challenges.</p>
+                            <ul>
+                                <li>Practitioners rarely engaged in any prototyping for new AI experiences because it slows down their pace of development.</li>
+                                <li>When people were prototyping, we found that product teams were so focused on the “hero or golden path scenarios” that would only happen in ideal circumstances, which made it easier for people to overlook failure scenarios.</li>
+                                <li>Also, different product teams often experienced breakdowns in interdisciplinary communication due to having varying levels of AI expertise.</li>
+                            </ul>
+                            <br>
+
+                            <h6 style="text-align:left;">Opportunities</h6>
+                            <p style="text-align:left;">We evaluated the Playbook in a think-aloud session with 9 of our previous participants. Here are three key insights that emerged from the evaluation of AI Playbook.</p>
+                            <ul>
+                                <li>Many saw how the AI Playbook could help them step off idealized interaction scenarios by systematically navigating the error space and standardizing the types of errors that can be included in testing their prototype.</li>
+                                <li>Another perceived benefit of the tool came from its ability to show the full range of options and consequences of people's design decisions within a short 3-4 minutes of their time.</li>
+                                <li>We found the potential for the tool to help different teams overcome breakdowns in communication by directing their attention to the same terminology and scenarios in ways that both designers, machine learning engineers, and data scientists can relate to.</li>
+                            </ul>
                             
                             <br><br>
 
@@ -201,7 +358,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-10 col-sm-10 col-xs-10">
                                     <a href="https://microsoft.github.io/HAXPlaybook/" target="_blank"><img src="img/portfolio/aiplaybook/link.png" class="img-responsive img-centered" alt="" width="70%"></a><br>
-                                    <p style="text-align:left;">The HAX Playbook (previously AI Playbook) is an interactive tool for generating interaction scenarios to test when designing user-facing AI systems. Click the image for an interactive demo.</p>
+                                    <p style="text-align:left;">Microsoft's HAX Playbook (previously AI Playbook) is an interactive tool for generating interaction scenarios to test when designing user-facing AI systems. Click the image for an interactive demo.</p>
                                 </div>
                             </div>
                             <br><br>
