@@ -186,13 +186,20 @@
                                 <li>Development of taxonomy of common AI failures in natural language products</li>
                                 <li>User study with 9 practitioners (prior participants)</li>
                             </ul>
-
-                            <p style="text-align:left;">We developed our taxonomy starting with 8 experts in NLP research, by:</p>
-                            <ol>
-                                <li>Capturing a wide range of natural language scenarios from previous work on information retrieval, dialogue management, speech recognition, and slot filling, etc.</li>
-                                <li>Organizing the scenarios based on failures that fall under attention, input perception, understanding, and response generation.</li>
-                                <li>Walking through concrete real-world examples of NL tasks for each scenario (e.g., extracting a meeting request from an email, or booking a flight with a voice assistant, etc.).</li>
-                            </ol>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                                    The initial interview study with 12 design and AI practitioners helped us identify key challenges they faced in prototyping natural language AI experiences. Based on consideration of these challenges, we decided to focus on errors that are either very common, or rare but very costly, and errors that directly affect the end-user of the system. We also narrowed our scope to errors apparent within a single session. We expected this would have the most impact in early prototyping because realistically simulating long-term failures is particularly difficult without high-fidelity prototypes. Our realization that many practitioners were not aware of the range of errors possible in their AI application contexts prompted us to develop a taxonomy of AI failures.  
+                                </div>
+                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
+                                    <p style="text-align:left;">We developed our taxonomy starting with 8 experts in NLP research, by:</p>
+                                    <ol>
+                                        <li>Capturing a wide range of natural language scenarios from previous work on information retrieval, dialogue management, speech recognition, and slot filling, etc.</li>
+                                        <li>Organizing the scenarios based on failures that fall under attention, input perception, understanding, and response generation.</li>
+                                        <li>Walking through concrete real-world examples of NL tasks for each scenario (e.g., extracting a meeting request from an email, or booking a flight with a voice assistant, etc.).</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            
                             <br>
                             <h6 style="text-align:left;">Taxonomy of AI Failure Types and Scenarios in NL Products</h6>
                             <p style="text-align:left;">After multiple rounds of iteration, we arrived at 16 different failure scenarios that may occur in the context of natural language (NL) based products.</p>
@@ -332,18 +339,18 @@
 
                             <h5 style="text-align:left;">Key Findings</h5>
                             <div class="row">
-                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
-                                    <h6 style="text-align:left;">Challenges</h6>
-                           			<p style="text-align:left;">Our formative interviews with design and AI practitioners from a large technology company revealed three main challenges.</p>
+                                <div class="col-lg-5 col-md-10 col-sm-10 col-xs-10">
+                                    <h6 style="text-align:left;">Challenges Prototyping AI Experiences</h6>
+                           			<p style="text-align:left;">Our formative interviews with 12 design and AI practitioners from a large technology company revealed three main challenges.</p>
 		                            <ul>
 		                                <li>Practitioners rarely engaged in any prototyping for new AI experiences because it slows down their pace of development.</li>
 		                                <li>When people were prototyping, we found that product teams were so focused on the “hero or golden path scenarios” that would only happen in ideal circumstances, which made it easier for people to overlook failure scenarios.</li>
 		                                <li>Also, different product teams often experienced breakdowns in interdisciplinary communication due to having varying levels of AI expertise.</li>
 		                            </ul>
                                 </div>
-                                <div class="col-lg-6 col-md-10 col-sm-10 col-xs-10">
-                               		<h6 style="text-align:left;">Opportunities</h6>
-                                    <p style="text-align:left;">We evaluated the Playbook in a think-aloud session with 9 of our previous participants. Here are three key insights that emerged from the evaluation of AI Playbook.</p>
+                                <div class="col-lg-7 col-md-10 col-sm-10 col-xs-10">
+                               		<h6 style="text-align:left;">Opportunities for Addressing AI Failures With the AI Playbook</h6>
+                                    <p style="text-align:left;">We evaluated the Playbook in a think-aloud session with 9 of our previous participants. Three key insights emerged from our evaluation of the AI Playbook.</p>
 	                            <ul>
 	                                <li>Many saw how the AI Playbook could help them step off idealized interaction scenarios by systematically navigating the error space and standardizing the types of errors that can be included in testing their prototype.</li>
 	                                <li>Another perceived benefit of the tool came from its ability to show the full range of options and consequences of people's design decisions within a short 3-4 minutes of their time.</li>
