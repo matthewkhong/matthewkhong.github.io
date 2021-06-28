@@ -145,7 +145,7 @@
                 <br/>
             <div class="row">
                 <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
-                			<a href="img/portfolio/aiplaybook/aiplaybook_background.png" data-fancybox="gallery"><img src="img/portfolio/aiplaybook/aiplaybook_background.png" width="100%" alt=""/></a><br><br>
+                			<a href="https://www.wired.com/story/efforts-make-text-ai-less-racist-terrible/" target="_blank"><img src="img/portfolio/aiplaybook/aiplaybook_feature.png" width="100%" alt="WIRED feature block quote"/></a><br><br>
                             <p style="text-align:left;">We all know that AI can dramatically improve the user experience of software products. But there are a lot of growing pains with AI and the current process for prototyping AI experiences is not as efficient as we want it to be. Product teams working with natural langauge AI products such as chatbots or writing assistants are experiencing major challenges because they are discovering unexpected errors after deploying the product to end-users. Based on a systematic characterization of common failure scenarios in natural language-based systems, we developed the AI Playbook to help product teams proactively address AI failures in early stages of prototyping.</p><br>
 
                             <ul class="list-inline item-details" style="text-align:left;">
@@ -165,16 +165,20 @@
                             </ul>
                             <br><br><br>
                             <h5 style="text-align:left;">Background</h5>
+                            <a href="img/portfolio/aiplaybook/aiplaybook_background.png" data-fancybox="gallery"><img src="img/portfolio/aiplaybook/aiplaybook_background.png" width="90%" alt=""/></a><br><br>
                             <p style="text-align:left;">There are several reasons that challenge our ability to prototype AI experiences:</p>
                             <ul>
-                                <li>Many AI solutions are built on probabilistic machine learning models, and it is difficult to predict failure behaviors of a system.</li>
-                                <li>Design practitioners have varying levels of AI expertise to account for all types of AI failures.</li>
+                                <li>Many AI solutions are built on probabilistic machine learning models</li>
+                                <li>The stochastic nature of these solutions makes it difficult to predict failure behaviors of a system.</li>
+                                <li>Design practitioners have varying levels of AI expertise to anticipate and account for all types of AI failures.</li>
                                 <li>Most importantly, it's difficult to know how users will react to failures in realistic scenarios.</li>
                             </ul>
-                            <p style="text-align:left;">This leaves design praactitioners with no choice but to take a reactive approach to address errors in the prototyping process.</p><br>
+                            <p style="text-align:left;">This leaves design practitioners with no choice but to take a reactive approach to address errors in the prototyping process. But what kind of failure behaviors are we dealing with? It is difficult to characterize what a failure behavior is because its meaning can change depending on whether it is interpreted by the end user or the system developer.</p><br>
 
                             <center><a href="img/portfolio/aiplaybook/aiplaybook_example.png" data-fancybox="gallery"><img src="img/portfolio/aiplaybook/aiplaybook_example.png" width="70%" alt=""/></a></center><br><br>
-                            <p style="text-align:left;">Suppose we are planning a trip and ask an AI assistant about the weather in <i>Ontario</i> (which is in Canada). Our assistant, however, might think we are talking about a city in California, which happens to carry the same name <i>Ontario</i> with the same spelling and pronunciation. So how can we help product teams anticipate failures of this nature?</p>
+                            <p style="text-align:left;">Suppose we are planning a trip to <i>Ontario</i> (which is in Canada) and ask an AI assistant about its weather. Our assistant, however, might think we are talking about a city in California, which is close by and happens to carry the same name <i>Ontario</i> with the same spelling and pronunciation. In this case, the system response is considered a failure from the user's perspective because we intended to ask about the weather in a different location. The developer on the other hand, might have written an algorithm to assume that the user is asking about the weather closest to their current location. So how can we help product teams anticipate failures of this nature?</p>
+
+                            <p style="text-align:left;">To answer this question, we scope our research to focus on failure behaviors that are expected to affect the end-user.</p>
                             <br><br>
 
                             <h5 style="text-align:left;">Goal</h5>
