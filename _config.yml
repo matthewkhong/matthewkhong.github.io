@@ -6,7 +6,7 @@ title: Matthew K. Hong # the website title (if blank, full name will be used ins
 first_name: Matthew
 middle_name: K.
 last_name: Hong
-email: blank
+email: mkhong87@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Matthew Hong's personal website. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
